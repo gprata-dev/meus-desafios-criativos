@@ -1,0 +1,50 @@
+Quero criar uma automação no n8n para monitorar cotações de moedas e enviar notificações quando houver atualizações.
+
+Público ou responsável:
+Pessoas que desejam acompanhar cotações de moedas de forma prática.
+
+Resultado esperado:
+Registrar as cotações em uma planilha do Google Sheets e enviar notificações por e-mail com os valores atualizados.
+
+Ferramentas envolvidas:
+n8n, API de cotação de moedas, Google Sheets e Gmail.
+
+Fluxo desejado:
+1. Executar a automação em horários programados.
+2. Consultar uma API externa para obter as cotações.
+3. Processar os dados recebidos.
+4. Registrar os valores e a data e hora da consulta no Google Sheets.
+5. Enviar um e-mail com as cotações atualizadas.
+
+Regras importantes:
+- Não enviar notificações quando a API retornar dados inválidos.
+- Registrar a data e hora de cada consulta.
+- Tratar erros de conexão sem interromper permanentemente a automação.
+- Utilizar credenciais seguras para acessar os serviços.
+
+Atue como um especialista em n8n.
+
+Crie uma automação para monitorar cotações de moedas, registrar os valores em uma planilha e enviar notificações por e-mail.
+
+Público:
+Pessoas que desejam acompanhar cotações de moedas automaticamente.
+
+Ferramentas envolvidas:
+n8n, uma API externa de cotação de moedas, Google Sheets e Gmail.
+
+Fluxo:
+1. Acionar o workflow em horários programados usando o Schedule Trigger.
+2. Consultar a API de cotação utilizando o HTTP Request.
+3. Validar e processar os dados recebidos.
+4. Registrar as cotações, a data e a hora da consulta no Google Sheets.
+5. Enviar um e-mail com os valores atualizados usando o Gmail.
+6. Tratar possíveis erros de requisição e dados inválidos.
+
+Regras:
+- Não registrar dados inválidos.
+- Utilizar data e hora no formato dia/mês/ano, hora e minuto.
+- Evitar o envio de notificações desnecessárias.
+- Utilizar apenas nós padrão do n8n, sem criar nodes customizados.
+- Proteger as credenciais de acesso às APIs e aos serviços integrados.
+
+Explique quais nós do N8N devem ser utilizados e a lógica de funcionamento do workflow.
